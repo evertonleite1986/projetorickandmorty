@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.app__list {
+    background-image: url("https://wallpapertops.com/walldb/original/4/d/b/5417.jpg");
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    
+   
+}
+
+.app__card {
+    padding:1rem, 5rem;
+    width: 12rem;
+    margin: 1rem;
+}
+
+.app__card img{
+    transition: all .5s;
+    border: 10px solid #eeeeee;
+    width: 12rem;
+    height: 12rem;
+}
+
+.app__card img:hover {
+    border: 10px solid #781f40;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+    
+}
+
+.app__card__info {
+    color: #000;
+      text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
+    font-size: 20px;
+}
+
+.app__info {
+    background-image: url("https://wallpapertops.com/walldb/original/4/d/b/5417.jpg");
+    height: 100vh;
+}
+
+.app__info__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.app__info__card img {
+    border: 10px solid #eeeeee;
+}
+
+.app__info__button {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.app__info__button button {
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 16px;
+    background: rgba(0, 255, 13, 0.73);
+    color: blue;
+    border-radius: 10px;
+    
+}
+
+.app__info__infos {
+    background: rgba(0, 255, 13, 0.73);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #000;
+      text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
+    width: 320px;            
+}
+
+.app__info__infos h2 {
+    padding-left: 1rem;
+}
+
+
+.app__info__infos h3 {
+    padding-top: 10px;
+    padding-left: 2rem;
+}
+
+.app__list__searchbox__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    background: rgba(0, 255, 13, 0.73);
+    position: fixed;
+}
+
+.app__list__searchbox img{
+    padding-left: 2rem;
+    padding-top: 0.3rem;
+    height:5rem;
+    width: 20rem;
+}
+
+.app__list__searchbox button {
+    margin-right: 5rem;
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 16px;
+    background: rgba(241, 45, 19, 0.931);
+    color: white;
+    border-radius: 10px;
+}
+
+.app__list__searchbox input {
+    height:2.5rem;
+    width: 22rem;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: lime;
+    padding-left: 1rem;
+}
+
+.app__about{
+    background-color: #34f403;
+    background-image: linear-gradient(0deg, #34f403 0%, #16cbf8 34%, #bcd2db 65%, #e31098 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.app__about__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app__about__header h1{
+    padding: 2rem;
+}
+
+
+.app__about__header img {
+    padding-bottom: 2rem;
+}
+
+.app__about__header h3 {
+    padding-bottom: 2rem;
+}
+
+.app__about__text {
+    width: 75%;
+    text-align: justify;
+}
+
+.app__about__links {
+    padding-top: 2rem;
+}
+
+.app__about__link {
+    padding: 2rem;
+}
+
+.app__info__button{
+    padding-bottom: 2rem;
+}
